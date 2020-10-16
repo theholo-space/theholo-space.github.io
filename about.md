@@ -5,5 +5,4 @@ title: About
 
 # About page
 
-
-This page tells you a little bit about me.
+See more about me: [bshambaugh.org](http://bshambaugh.org/)
