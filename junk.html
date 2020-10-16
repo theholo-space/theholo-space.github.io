@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<h1>Junk</h1>
+
+<ul>
+  {% for author in site.authors %}
+    <li>
+      <h2><a href="{{ author.url }}">{{ author.name }}</a></h2>
+      <h3>{{ author.position }}</h3>
+      <p>{{ author.content | markdownify }}</p>
+    </li>
+  {% endfor %}
+  <h2>I am the kind of junk!</h2>
+</ul>
